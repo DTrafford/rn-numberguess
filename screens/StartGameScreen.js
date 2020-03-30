@@ -39,7 +39,6 @@ const StartGameScreen = props => {
       setOrientation(
         Dimensions.get("window").height > 500 ? "portrait" : "landscape"
       );
-      console.log(orientation);
     };
 
     Dimensions.addEventListener("change", updateOrientation);

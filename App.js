@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, SafeAreaView } from "react-native"; // Safe Area View Helps With Notches
 import * as Font from "expo-font";
 import { AppLoading } from "expo";
 import Header from "./components/Header";
@@ -62,10 +62,10 @@ export default function App() {
   }
 
   return (
-    <View style={styles.screen}>
+    <SafeAreaView style={styles.screen}>
       <Header title="Number Guesser" />
       {content}
-    </View>
+    </SafeAreaView>
   );
 }
 
