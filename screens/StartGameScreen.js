@@ -179,7 +179,6 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   imageContainer: {
-    // display: Dimensions.get("window").height < 500 ? "none" : "flex",
     flex: 1,
     marginVertical: 10,
     maxWidth: "75%",

@@ -28,14 +28,9 @@ const GameOverScreen = props => {
         <View style={styles.screenLeft}>
           <View style={styles.imageContainer}>
             <Image
-              // fadeDuration={1000}
               style={styles.image}
               resizeMode="stretch"
               source={require("../assets/images/iu-2.png")}
-              // source={{
-              //   uri:
-              //     "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.icone-png.com%2Fpng%2F52%2F52078.png&f=1&nofb=1"
-              // }}
             />
           </View>
         </View>
@@ -75,14 +70,9 @@ const GameOverScreen = props => {
     <View style={styles.screen}>
       <View style={styles.imageContainer}>
         <Image
-          // fadeDuration={1000}
           style={styles.image}
           resizeMode="stretch"
           source={require("../assets/images/iu-2.png")}
-          // source={{
-          //   uri:
-          //     "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.icone-png.com%2Fpng%2F52%2F52078.png&f=1&nofb=1"
-          // }}
         />
       </View>
       <Text style={{ ...DefaultStyles.bodyText, ...styles.text }}>
